@@ -16,7 +16,7 @@ class DataFeedFragment: Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_intro, container, false)
+        return inflater.inflate(R.layout.fragment_data_feed, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
