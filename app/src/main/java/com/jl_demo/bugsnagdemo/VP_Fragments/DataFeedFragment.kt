@@ -7,24 +7,22 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.jl_demo.bugsnagdemo.R
-import kotlinx.android.synthetic.main.fragment_diagnosis.view.*
+import kotlinx.android.synthetic.main.fragment_intro.view.*
 
-class DiagnosticFragment: Fragment() {
+class DataFeedFragment: Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_diagnosis, container, false)
+        return inflater.inflate(R.layout.fragment_intro, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         view.apply {
-            diag_launch_btn.setOnClickListener {
-                Toast.makeText(activity!!, "Not done with this yet...", Toast.LENGTH_SHORT).show()
-            }
+
         }
     }
 }

@@ -25,7 +25,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="@string/diagnosis_title"/>
+        android:text="@string/intro_title"/>
 
 
     <androidx.cardview.widget.CardView
@@ -45,22 +45,23 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/diagnosis_description"
+            android:text="@string/intro_description"
             style="@style/font_med_wht"
             android:layout_margin="@dimen/default_margin"/>
 
     </androidx.cardview.widget.CardView>
 
-    <TextView
-        android:id="@+id/diag_launch_btn"
-        android:layout_width="200dp"
-        android:layout_height="0dp"
-        style="@style/font_style_clickable"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="@dimen/margin_top"
-        android:text="@string/diagnosis_button"/>
+<!--    <TextView-->
+<!--        android:id="@+id/diag_launch_btn"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        style="@style/font_style_clickable"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        android:layout_marginBottom="@dimen/margin_top"-->
+<!--        android:text="@string/diagnosis_button"-->
+<!--        android:visibility="gone"/>-->
 
 
 

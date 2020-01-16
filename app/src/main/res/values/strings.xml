@@ -12,9 +12,11 @@
     <string name="anr_button">Break it</string>
 
 
-    <string name="diagnosis_title">Recorded for training purposes</string>
-    <string name="diagnosis_description">The ability to send log, configuration, device, and operator information with the press of a button. When a user needs support and this feature is wired in correctly they can send CS agents data directly from their devices.\n\n\tNot only will the agent have the data directly this data will include bread crumbs of where the user has been and how long the user has been in the application.</string>
-    <string name="diagnosis_button">Diagnose it</string>
+    <string name="intro_title">Bugsnag monitors application stability so you can make data-driven decisions on whether you should be building new features, or fixing bugs.</string>
+    <string name="intro_description">The ability to send logs, configurations, device info, and operator information with the press of a button or handled exception will allow us to build an enterprise application scalable and manageable on a global scale.</string>
 
+
+    <string name="data_feed_title">See live data right from a mobile device</string>
+    <string name="data_feed_description">Feature still being working on....</string>
 
 </resources>
