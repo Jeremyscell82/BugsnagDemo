@@ -5,7 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.bugsnag.android.Bugsnag
 import com.jl_demo.bugsnagdemo.R
+import kotlinx.android.synthetic.main.fragment_exception.view.*
+import java.io.IOException
+import java.lang.RuntimeException
 
 class ExceptionFragment: Fragment() {
 
@@ -15,5 +19,15 @@ class ExceptionFragment: Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         return inflater.inflate(R.layout.fragment_exception, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        view.apply {
+            exception_launch_btn.setOnClickListener {
+                Bugsnag.notify(RuntimeException("Test Runtime exception"))
+                Bugsnag.notify(IOException("Test IO Exception"))
+            }
+        }
     }
 }
