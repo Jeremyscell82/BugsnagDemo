@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#303F9F</color>
+    <color name="appBackground">#313131</color>
+    <color name="pureWhite">#FFFFFF</color>
+    <color name="alphaWhite">#80FFFFFF</color>
+    <color name="pureBlack">#000000</color>
+    <color name="offBlack">#1D1D1D</color>
+    <color name="alphaBlack">#BE000000</color>
+    <color name="offWhite">#D8D7D7</color>
+    <color name="textColor">#D8D7D7</color>
+    <color name="cardviewButtonBG">#F5F5F5</color>
+    <color name="shadow">#80000000</color>
 </resources>

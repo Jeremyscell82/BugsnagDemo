@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">BugsnagDemo</string>
+
+    <string name="exception_title">Throw some exceptions</string>
+    <string name="exception_description">Exceptions are thrown when the code didn\'t quite go our way. Let\'s say for some reason a value comes down in the incorrect format (we expected a word and received a number), or we anticipated an edge case but have not received confirmation it is a real bug or not.</string>
+    <string name="exception_button">Throw\'em</string>
+
+
+    <string name="anr_title">Total Failure</string>
+    <string name="anr_description">In the event the application stops responding the user, \'Android is Non Responsive\', we can automatically trigger an event to inform us of who, what, where, and when this occurred including future features such as alert a manager or auto reboots which will save the company $$$</string>
+    <string name="anr_warning">***WARNING***\nTHIS WILL FREEZE THE APPLICATION!</string>
+    <string name="anr_button">Break it</string>
+
+
+    <string name="diagnosis_title">Recorded for training purposes</string>
+    <string name="diagnosis_description">The ability to send log, configuration, device, and operator information with the press of a button. When a user needs support and this feature is wired in correctly they can send CS agents data directly from their devices.\n\n\tNot only will the agent have the data directly this data will include bread crumbs of where the user has been and how long the user has been in the application.</string>
+    <string name="diagnosis_button">Diagnose it</string>
+
+
 </resources>
