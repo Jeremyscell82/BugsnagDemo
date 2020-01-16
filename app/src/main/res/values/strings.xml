@@ -12,8 +12,8 @@
     <string name="anr_button">Break it</string>
 
 
-    <string name="intro_title">Bugsnag monitors application stability so you can make data-driven decisions on whether you should be building new features, or fixing bugs.</string>
-    <string name="intro_description">The ability to send logs, configurations, device info, and operator information with the press of a button or handled exception will allow us to build an enterprise application scalable and manageable on a global scale.</string>
+    <string name="intro_title">Bugsnag Demo</string>
+    <string name="intro_description">Bugsnag monitors application stability so you can make data-driven decisions on whether you should be building new features, or fixing bugs.\n\n\nThe ability to send logs, configurations, device info, and operator information with the press of a button or handled exception will allow us to build an enterprise application scalable and manageable on a global scale.</string>
 
 
     <string name="data_feed_title">See live data right from a mobile device</string>
