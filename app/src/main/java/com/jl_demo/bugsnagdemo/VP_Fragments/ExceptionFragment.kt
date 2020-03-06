@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.bugsnag.android.Bugsnag
 import com.jl_demo.bugsnagdemo.R
+import com.rollbar.android.Rollbar
 import kotlinx.android.synthetic.main.fragment_exception.view.*
 import java.io.IOException
 import java.lang.RuntimeException
@@ -27,6 +28,10 @@ class ExceptionFragment: Fragment() {
             exception_launch_btn.setOnClickListener {
                 Bugsnag.notify(RuntimeException("Test Runtime exception"))
                 Bugsnag.notify(IOException("Test IO Exception"))
+
+                val rollbar: Rollbar = Rollbar.instance() //Getting instance of Rollbar
+                rollbar.error(RuntimeException("Test Runtime exception"))
+                rollbar.error(IOException("Test IO Exception"))
             }
         }
     }

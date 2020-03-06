@@ -2,12 +2,14 @@ package com.jl_demo.bugsnagdemo
 
 import android.app.Application
 import com.bugsnag.android.Bugsnag
+import com.rollbar.android.Rollbar
 
 class MyApp: Application() {
 
     override fun onCreate() {
         super.onCreate()
         Bugsnag.init(this)
+        Rollbar.init(this);
 
         //Add information before any bugs are created, to be sent on every report
         Bugsnag.beforeNotify { error ->

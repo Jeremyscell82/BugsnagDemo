@@ -32,15 +32,15 @@ class AnrFragment: Fragment() {
 
 
     fun triggerANR(){
-//        makeItDummyProof()
+        enoughNowShutItDown()
         while(true) {
             //This is such a bad idea....
         }
     }
 
-//    fun makeItDummyProof(){
-//        Handler().postDelayed({
-//            (activity as MainActivity).finish()
-//        }, 10000)
-//    }
+    fun enoughNowShutItDown(){
+        Handler().postDelayed({
+            (activity as MainActivity).finish()
+        }, 10000)
+    }
 }

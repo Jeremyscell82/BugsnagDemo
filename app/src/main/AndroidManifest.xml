@@ -17,6 +17,8 @@
             android:value="fac4698eb37c1a3c39760081f6a3c44c"/>
         <meta-data android:name="com.bugsnag.android.DETECT_ANRS"
             android:value="true"/>
+        <meta-data android:name="com.rollbar.android.ACCESS_TOKEN"
+            android:value="7ec46e92fc964057b14f0c4fd061f283" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
